@@ -111,3 +111,35 @@ margin: 20px 0px;
 .banner-content{
     min-height: 500px;
 }
+/* main Section styles */
+
+
+
+/* About Section styles */
+.about{
+    border-radius: 10px;
+background: #FFF8F3;
+border-radius: 10px;
+    height: 550px;
+    flex-shrink: 0;
+    padding: 200px 150px;
+    margin: 100px 230px;
+}
+.section_title{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section_description{
+    color: var(--dark-03, #757575);
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
