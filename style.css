@@ -5,6 +5,7 @@
     --fontsize: 20px;
     --grayshade:#18181826 ;
     --dark-02: #474747;
+    --dark-03: #757575;
     --dark-01:#181818;
 }
 
@@ -21,6 +22,16 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 color: white;
+padding: 15px 35px;
+
+}
+.btn-secondary{
+    border-radius: 5px;
+background: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color: #FD6E0A;
 padding: 15px 35px;
 
 }
@@ -41,10 +52,12 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    margin: 0px 100px;
 }
 nav li{
    list-style: none;
    margin-right: 50px;
+   margin-left: 20px;
 }
 nav a{
     text-decoration: none;
@@ -52,4 +65,49 @@ nav a{
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 400;
+}
+nav h3{
+    margin: 0px 100px;
+}
+
+/* header styling */
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+   padding: 30px 30px 0px 150px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.banner .profile-pic{
+    /* width: 584px; */
+    height: 500px;
+}
+.banner-greeating{
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner_text{
+    color: var(--dark-03, #757575);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 20px 0px;
+}
+.banner-content{
+    min-height: 500px;
 }
